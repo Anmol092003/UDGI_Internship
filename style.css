@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(7, 7, 90);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px ;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+
+ 
+ .naveimge{
+  height: 5em;
+  width: 10em;
+ }
+
+ .bottomOfNavebar{
+  
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 50px;
+ }
+
+
+ .bottomOfNavebar{
+  margin-top: 69px;
+  
+ }
+ 
+.marquee{
+  background-color: rgb(55, 138, 233);
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 20px;
+  color: white;
+}
+.myCarousel{
+  height: 60vh;
+}
+.d-block {
+  height: 60vh;
+}
+
+#Aboutus{
+  margin-top: 20px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.AboutImg{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.AboutContent h3{ 
+  line-height: 1.7;
+  font-weight: 700;
+  color: #9e9e9e;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  
+  
+}
+.AboutContent h1{
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+}
+.para{
+  font-weight: bold;
+}
+#LivingPlasticFree{
+  margin-top: 50px;
+  width: atuo;
+  height: auto;
+}
+.PlasticFreeHeading{
+  text-align: center;
+  
+}
+.PlasticFreeHeading h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  text-decoration: underline;
+}
+
+
+.card-group{
+  margin-top: 25px;
+}
+.card{
+  margin-right: 10px;
+  width: auto;
+  width: 250px;
+  object-fit: cover;
+}
+.card-img-top{
+  width: auto;
+  height: 190px;
+  border: black;
+}
+#donate{
+  background-image: url(./images/pexels-parijb-3070333.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
+
+
+
+
+
+
+
+
+
